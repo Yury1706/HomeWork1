@@ -16,6 +16,5 @@ public class HomeWork4 {
         } else if ((userInput >= (startPoint * 0.9) && (userInput <= (startPoint * 1.1)))) {
             System.out.println("Ваше число близко к стартовому значению");
         } else System.out.println("Ваше число далеко от стартового значения");
-
     }
 }
