@@ -4,12 +4,12 @@ public class HomeWork4 {
 
     public static void main(String[] args) {
 
-        int startPoint = 100;
-        int userInput;
+        double startPoint = 100.00;
+        double userInput;
 
         System.out.print("Введите свое число: ");
         Scanner scanner = new Scanner(System.in);
-        userInput = scanner.nextInt();
+        userInput = scanner.nextDouble();
 
         if (userInput == startPoint) {
             System.out.println("Вы угадали стартовое значение!!!");
