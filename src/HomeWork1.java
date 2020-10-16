@@ -4,10 +4,15 @@ public class HomeWork1 {
 
     public static void main(String[] args) {
 
-        int day;
+        int day = 0;
         System.out.print("Введите число дня недели от 1 до 7: ");
         Scanner scanner = new Scanner(System.in);
-        day = scanner.nextInt();
+        if (scanner.hasNextInt()) {   // микропроверка)))) хотел просто попробовать)))) работает)))) вроде...
+            day = scanner.nextInt();
+        } else {
+            System.out.println("Неверный формат");
+            return;
+        }
 
         switch (day) {
             case 1:

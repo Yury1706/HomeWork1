@@ -4,8 +4,8 @@ public class HomeWork2 {
 
     public static void main(String[] args) {
 
-        int firstVal = 10;
-        int secondVal = 20;
+        int firstVal = 10; //диапазон №1
+        int secondVal = 20; //диапазон №2
         int userVal;
 
         System.out.print("Введите свое целое число: ");

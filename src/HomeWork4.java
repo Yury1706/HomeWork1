@@ -4,6 +4,7 @@ public class HomeWork4 {
 
     public static void main(String[] args) {
 
+
         double startPoint = 100.00;
         double userInput;
 
@@ -14,7 +15,7 @@ public class HomeWork4 {
         if (userInput == startPoint) {
             System.out.println("Вы угадали стартовое значение!!!");
         } else if ((userInput >= (startPoint * 0.9) && (userInput <= (startPoint * 1.1)))) {
-            System.out.println("Ваше число близко к стартовому значению");
-        } else System.out.println("Ваше число далеко от стартового значения");
+            System.out.println("Ваше число близко к стартовому значению (в пределах 10%)");
+        } else System.out.println("Ваше число далеко от стартового значения(за пределами 10%)");
     }
 }
